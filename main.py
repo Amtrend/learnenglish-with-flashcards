@@ -16,6 +16,7 @@ else:
     to_learn = data.to_dict(orient="records")
 
 
+
 def next_card():
     global current_card, flip_timer
     window.after_cancel(flip_timer)
